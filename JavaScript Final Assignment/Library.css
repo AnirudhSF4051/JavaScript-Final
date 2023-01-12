@@ -1,0 +1,131 @@
+.main
+{
+    width: 900px;
+    height:525px;
+    padding-top: 15px;
+    
+    
+    background-color: white;
+    border: 2px solid black;
+}
+hr
+{
+    border: 2px solid black;
+  border-top: 1px dotted ;
+  color: #fff;
+  background-color: #fff;
+  height: 1px;
+  
+}
+
+.logo
+{
+    float: left;
+    margin-left: 15px;
+
+}
+header
+{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 60px;
+}
+.family
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.book
+{
+    margin-left: 50px;
+}
+h1
+{
+  margin-left: 20px;
+}
+.category
+{
+  font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.options
+{
+  margin-left:82.5px;
+  width: 168px;
+    
+}
+.book
+{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+.bookname 
+{
+  margin-left: 110px;
+  width:160px
+}
+.author
+{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+.mail 
+{
+  margin-left: 50px;
+}
+.authorname
+{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+.nameauthor
+{
+  margin-left: 50px;
+}
+.published 
+{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  
+}
+.date 
+{
+  margin-left: 73px;
+  width: 165px;
+}
+.price
+{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+.amount 
+{
+  margin-left: 112px;
+  width: 160px;
+}
+.button 
+{
+
+  margin-left: 20px;
+  width:100px;
+  background-color: white;
+  border-color: gray;
+}
+.cancel
+{
+  margin-left: 20px;
+  width:100px;
+  background-color: white;
+  border-color: gray;
+}
+.show 
+{
+  margin-left: 23px;
+  width:100px;
+  background-color: white;
+  border-color: gray;
+}
+.footer
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  margin-left: 20px;
+}

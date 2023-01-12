@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <link rel="stylesheet" href="Library.css">
+
+   <script src="Library.js"></script>
+   
+    <title>JavaScript Assignment</title>
+</head>
+<body>
+    <div class="main">
+        <img src="syncfusion.png" width="20px" height="20px" class="logo">
+        <header>Library Portal
+            <a class="book" href="#">Books</a>
+        </header>
+        <hr></hr>
+        <form action="result.html">
+        <section><h1 class="family">Add New Book</h1>
+            <p style="font-weight: bold;" class="category">Category  
+                <select class="options"  name="IT" id="dropdown">
+                    <option value="IT">IT</option>
+                    <option value="CSE">CSE</option>
+                    <option value="ECE">ECE</option>
+                    <option value="MECH">MECH</option>
+                </select>
+            </p>
+            
+
+            <p style="font-weight: bold;" class="book">Book
+                <input class="bookname" type="name" id="bookname" placeholder="Enter Book Name"  required  onblur="bookname()" onmouseover="clearbookname()"/  >
+                
+            </p>
+
+            <p style="font-weight: bold;" class="author" >Author Email
+             <input class="mail" type="name" id="authormail" placeholder="Enter Author Email" required  onblur="checkmail()" onmouseover="clearmail()"/>
+             
+            </p>
+
+            <p style="font-weight: bold;" class="authorname" >Author Name
+                <input class="nameauthor" type="name" id="authorname" placeholder="Enter Author Name" required onblur="checkname()" onmouseover="clearname()" />
+                
+
+            </p>
+
+            <p style="font-weight: bold;" class="published">Published 
+                <input class="date" type="name" id="published" placeholder="Enter Year of Publish" required onblur="publish()" onmouseover="clearyear()"/>
+                
+            </p>
+
+            <p style="font-weight: bold;" class="price">Price 
+                <input class="amount" type="name" id="price" placeholder="Enter Price" required onblur="price()" onmouseover="clearprice()"/>
+                
+            </p>
+
+            <input class="button" type="button" value="Save" onclick="store()"/>
+            <input class="cancel" type="button" value="Cancel" onclick="cancellation()"/>
+            <input class="show" type="submit" value="Show" />
+
+            <hr></hr>
+            <p style="font-weight: bold;" class="footer" >Copyrights@2019 - present Syncfusion</p>
+            
+
+        </form>   
+        </section>
+        
+    </div>
+</body>
+</html>
